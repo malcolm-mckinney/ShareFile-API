@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		832702C217AAEBFC00897FDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832702C117AAEBFC00897FDF /* Foundation.framework */; };
-		832702C517AAEBFC00897FDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 832702C417AAEBFC00897FDF /* main.m */; };
 		832702C917AAEBFC00897FDF /* ShareFileSample.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 832702C817AAEBFC00897FDF /* ShareFileSample.1 */; };
+		832702D117AAEC3E00897FDF /* Sample.m in Sources */ = {isa = PBXBuildFile; fileRef = 832702D017AAEC3E00897FDF /* Sample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +28,10 @@
 /* Begin PBXFileReference section */
 		832702BE17AAEBFC00897FDF /* ShareFileSample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ShareFileSample; sourceTree = BUILT_PRODUCTS_DIR; };
 		832702C117AAEBFC00897FDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		832702C417AAEBFC00897FDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		832702C717AAEBFC00897FDF /* ShareFileSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareFileSample-Prefix.pch"; sourceTree = "<group>"; };
 		832702C817AAEBFC00897FDF /* ShareFileSample.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ShareFileSample.1; sourceTree = "<group>"; };
+		832702CF17AAEC3E00897FDF /* Sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample.h; sourceTree = "<group>"; };
+		832702D017AAEC3E00897FDF /* Sample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +74,9 @@
 		832702C317AAEBFC00897FDF /* ShareFileSample */ = {
 			isa = PBXGroup;
 			children = (
-				832702C417AAEBFC00897FDF /* main.m */,
 				832702C817AAEBFC00897FDF /* ShareFileSample.1 */,
+				832702CF17AAEC3E00897FDF /* Sample.h */,
+				832702D017AAEC3E00897FDF /* Sample.m */,
 				832702C617AAEBFC00897FDF /* Supporting Files */,
 			);
 			path = ShareFileSample;
@@ -139,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				832702C517AAEBFC00897FDF /* main.m in Sources */,
+				832702D117AAEC3E00897FDF /* Sample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +244,7 @@
 				832702CE17AAEBFC00897FDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
